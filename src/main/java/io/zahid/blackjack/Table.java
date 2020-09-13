@@ -103,6 +103,10 @@ public class Table extends JFrame {
 	public JTextField getBetTextField() {
 		return betTextField;
 	}
+	
+	public JButton getBetButton() {
+		return betButton;
+	}
 
 	public void updateWallet() {
 		walletLabel.setText("Wallet: " + player.getWallet());
