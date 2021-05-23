@@ -32,6 +32,7 @@ public class PlayerTest {
 		Assert.assertEquals(player.getScore(), playerScore);
 	}
 */
+	
 	@Test
 	public void setBet_getBet_playerWager() {
 		player.setBet(10);
